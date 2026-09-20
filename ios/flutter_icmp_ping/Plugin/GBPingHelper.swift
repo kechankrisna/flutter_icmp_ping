@@ -3,6 +3,7 @@
 //
 
 import Foundation
+import flutter_icmp_ping_gbping
 
 public typealias Handler = ((_ response: [String: Any]) -> Void)
 
