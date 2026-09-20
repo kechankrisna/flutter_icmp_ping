@@ -1,3 +1,6 @@
+## 3.1.4
+- Add Swift Package Manager support for iOS: moved native sources (including the vendored GBPing library) to `ios/flutter_icmp_ping/Sources/flutter_icmp_ping` with a `Package.swift` manifest, keeping the CocoaPods podspec working for existing consumers.
+
 ## 3.1.3
 - fix GBPing occasional crash under multi-threading.
 - fix to work on android.

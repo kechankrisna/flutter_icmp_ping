@@ -13,8 +13,8 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'flutter_icmp_ping/Sources/flutter_icmp_ping/**/*'
+  s.public_header_files = 'flutter_icmp_ping/Sources/flutter_icmp_ping/**/*.h'
   s.dependency 'Flutter'
   s.platform = :ios, '9.0'
 
